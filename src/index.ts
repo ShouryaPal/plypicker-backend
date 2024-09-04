@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json());
 app.use(
-  cors({ origin: "https://plypicker-zeta.vercel.app/login", credentials: true })
+  cors({ origin: "https://plypicker-zeta.vercel.app", credentials: true })
 );
 
 // Routes
